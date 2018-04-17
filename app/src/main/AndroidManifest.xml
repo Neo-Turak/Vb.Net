@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.nurasoft.zero.VBNet">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="cn.nurasoft.zero.VBNet.Welcome_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="nurasoft.cn"
+                    android:pathPattern="/Zero" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.nurasoft.zero.VBNet.Main_Activity" />
+        <activity android:name="cn.nurasoft.zero.VBNet.Functions_Activity" />
+        <activity android:name="cn.nurasoft.zero.VBNet.Tutorial_List_Activity" />
+        <activity android:name="cn.nurasoft.zero.VBNet.Settings_Activity" />
+        <activity android:name="cn.nurasoft.zero.VBNet.Tutorial_Activity" />
+        <activity android:name="cn.nurasoft.zero.VBNet.Namespaces_Activity" />
+        <activity android:name="cn.nurasoft.zero.VBNet.Functions_List_Activity" />
+        <activity android:name="cn.nurasoft.zero.VBNet.Key_words_Activity" />
+    <!--    <activity android:name=".Adapter.shows" /> -->
+        <activity android:name="cn.nurasoft.zero.VBNet.About_Me_Activity" />
+    </application>
+
+
+</manifest>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scrollbars="vertical"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textAlignment="center"
+           android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="@string/vb_net_key_words"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:background="#223344"
+            android:layout_height="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="3dp"
+            android:layout_marginStart="3dp"
+            android:text="A - C:"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:id="@+id/Key1"
+            android:textColor="#000" />
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_height="1dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="3dp"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:text="D - F:"-->
+            <!--android:textStyle="italic"-->
+            <!--android:textSize="18sp"-->
+            <!--android:id="@+id/Key2"-->
+            <!--android:textColor="#000" />-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_height="1dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd = "3dp"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:text="G - L:"-->
+            <!--android:textStyle = "italic"-->
+            <!--android:textSize="18sp"-->
+            <!--android:id = "@+id/Key3"-->
+            <!--android:textColor="#000" />-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_height="1dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd = "3dp"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:text="M - P:"-->
+            <!--android:textStyle = "italic"-->
+            <!--android:textSize="18sp"-->
+            <!--android:id = "@+id/Key4"-->
+            <!--android:textColor="#000" />-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_height="1dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd = "3dp"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:text="Q - T:"-->
+            <!--android:textStyle = "italic"-->
+            <!--android:textSize="18sp"-->
+            <!--android:id = "@+id/Key5"-->
+            <!--android:textColor="#000" />-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_height="1dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd = "3dp"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:text="U - Z:"-->
+            <!--android:textStyle = "italic"-->
+            <!--android:textSize="18sp"-->
+            <!--android:id = "@+id/Key6"-->
+            <!--android:textColor="#000" />-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_height="1dp"/>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd = "3dp"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:text="Symbols:"-->
+            <!--android:textStyle = "italic"-->
+            <!--android:textSize="18sp"-->
+            <!--android:id = "@+id/Key7"-->
+            <!--android:textColor="#2b2b2b" />-->
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="#000"-->
+            <!--android:layout_height="1dp"/>-->
+        <!--&ndash;&gt;-->
+    </LinearLayout>
+
+</ScrollView>
+
